@@ -28,6 +28,7 @@ function App() {
         ref={inputEl}
         onChange={(e) => setName(e.target.value)}
       />
+      
       <button onClick={resetButton}>Reset</button>
       <h1>My name is {name}</h1>
       <hr />
